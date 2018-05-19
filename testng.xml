@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name='Automation Test Suite' parallel='tests' thread-count='15'>
+
+<listeners>
+	<listener class-name="com.automation.utilities.AssignTestPriorityTransformer" />
+</listeners>
+	<test name="chromeWindowsLocal" preserve-order='false'>
+			<parameter name="browser" value="chrome"></parameter>
+			<parameter name="automationName" value="selenium"></parameter>
+			<parameter name="browserVersion" value="51.0"></parameter>
+			<parameter name="platformName" value="windows 7"></parameter>
+			<parameter name="environment" value="local"></parameter>
+		 <classes>
+			<class name="com.demo.test.JiraWSTest">
+				<methods>
+					 <include name="TC_01_CreateIssueTest" />
+				</methods>
+			 </class>
+		 </classes>
+	</test>
+
+</suite>

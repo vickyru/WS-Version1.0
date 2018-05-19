@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Automation Test Suite]" duration-ms="3076" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:29Z">
+    <groups>
+    </groups>
+    <test name="chromeWindowsLocal(failed)" duration-ms="3076" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:29Z">
+      <class name="com.demo.test.JiraWSTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeSuite" is-config="true" duration-ms="584" started-at="2018-05-18T21:03:25Z" finished-at="2018-05-18T21:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeMethod" is-config="true" duration-ms="135" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.test.JiraWSTest.TC_02_AssignIssueTest(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC_02_AssignIssueTest(java.util.Hashtable)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="TC_02_AssignIssueTest" duration-ms="2215" started-at="2018-05-18T21:03:26Z" data-provider="TC_02_AssignIssueTestDP" finished-at="2018-05-18T21:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ParamValue1=application/json, RequestBodyAssign={
+    "name": "vickyru"
+}, ResourcePathAuth=/rest/auth/1/session, RequestBodyAuth={ "username": "vickyru", "password": "snowhite" }, URIPort=8080.0, Param2=JSESSIONID, Param1=Content-Type, BaseURI=http://127.0.0.1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_AssignIssueTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterMethod" is-config="true" duration-ms="452" started-at="2018-05-18T21:03:28Z" finished-at="2018-05-18T21:03:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_AssignIssueTest status=SUCCESS method=JiraWSTest.TC_02_AssignIssueTest(java.util.Hashtable)[pri:0, instance:com.demo.test.JiraWSTest@72967906] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-18T21:03:29Z" finished-at="2018-05-18T21:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-05-18T21:03:29Z" finished-at="2018-05-18T21:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demo.test.JiraWSTest -->
+    </test> <!-- chromeWindowsLocal(failed) -->
+  </suite> <!-- Failed suite [Automation Test Suite] -->
+</testng-results>

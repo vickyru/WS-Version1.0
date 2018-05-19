@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [Rules Hamony Automation Test Suite]" parallel="tests">
+  <test thread-count="15" name="chromeWindowsLocal(failed)" parallel="tests">
+    <parameter name="environment" value="local"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="51.0"/>
+    <parameter name="automationName" value="selenium"/>
+    <parameter name="platformName" value="windows 7"/>
+    <classes>
+      <class name="com.demo.test.FirstProgram">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="Type1WebCall" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.demo.test.FirstProgram -->
+    </classes>
+  </test> <!-- chromeWindowsLocal(failed) -->
+</suite> <!-- Failed suite [Rules Hamony Automation Test Suite] -->
