@@ -90,7 +90,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected ArrayList<Map<String, ?>> getListOfItemOfObjectPath(final Response response , String objectPath) {
+	protected ArrayList<Map<String, ?>> getListOfItemOfObjectPath(final Response response , final String objectPath) {
 		JsonPath path = null;
 		ArrayList<Map<String, ?>> itemList = null;
 		try {
@@ -116,7 +116,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected int getCountOfItemOfObjectPath(final Response response , String objectPath) {
+	protected int getCountOfItemOfObjectPath(final Response response , final String objectPath) {
 		JsonPath path = null;
 		int itemCount = 0;
 		try {
@@ -167,7 +167,7 @@ public class ActionEngine extends TestBase{
 	 * @param actualvalue
 	 * @return
 	 */
-	protected boolean assertValues(String argumentIdentifier, final Object expectedValue , final Object actualvalue) {
+	protected boolean assertValues(final String argumentIdentifier, final Object expectedValue , final Object actualvalue) {
 		boolean flag = false;
 		try {
 			if (expectedValue != null && actualvalue != null) {
@@ -214,7 +214,7 @@ public class ActionEngine extends TestBase{
 	 * @param itemPath
 	 * @return
 	 */
-	protected Object getItemFromReponse(Response response , String itemPath) {
+	protected Object getItemFromReponse(Response response ,final String itemPath) {
 		Object item = null;
 		try {
 			if (response != null && itemPath != null) {
