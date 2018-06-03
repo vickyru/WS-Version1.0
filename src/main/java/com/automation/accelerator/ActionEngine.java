@@ -25,19 +25,20 @@ import io.restassured.response.Response;
  */
 public class ActionEngine extends TestBase{
 	
+	// Logger initialization for the class
 	private static final Logger LOG = Logger.getLogger(ActionEngine.class);
 	
 	/**
 	 * @param response
 	 * @return
 	 */
-	protected JsonPath getJsonPath(final Response response) {
+	protected final JsonPath getJsonPath(final Response response) {
 		JsonPath path = null;
 		try {
 			String jsonString = response.body().asString();
 			path = new JsonPath(jsonString);
 		} catch (Exception exception) {
-			LOG.debug("Exception Occured | getJsonPath " , exception);
+			LOG.debug("Exception Occured | getJsonPath", exception);
 		}
 		return path;
 	}
@@ -46,13 +47,13 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected XmlPath getXmlPath(final Response response) {
+	protected final XmlPath getXmlPath(final Response response) {
 		XmlPath path = null;
 		try {
 			String xmlString = response.body().asString();
 			path = new XmlPath(xmlString);
 		} catch (Exception exception) {
-			LOG.debug("Exception Occured | getXmlPath " , exception);
+			LOG.debug("Exception Occured | getXmlPath", exception);
 		}
 		return path;
 	}
@@ -61,12 +62,12 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected List<Header> getHeaderAsList(final Response response) {
+	protected final List<Header> getHeaderAsList(final Response response) {
 		List<Header> headerList = null;
 		try {
 			headerList = response.getHeaders().asList();
 		} catch (Exception exception) {
-			LOG.debug("Exception Occured | getHeaderAsList " , exception);
+			LOG.debug("Exception Occured | getHeaderAsList", exception);
 		}
 		return headerList;
 	}
@@ -75,12 +76,12 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected Map<String, String> getCoockiesAsMap(final Response response) {
+	protected final Map<String, String> getCoockiesAsMap(final Response response) {
 		Map<String, String> coockiesMap = null;
 		try {
 			coockiesMap = response.cookies();
 		} catch (Exception exception) {
-			LOG.debug("Exception Occured | getCoockiesAsMAp " , exception);
+			LOG.debug("Exception Occured | getCoockiesAsMAp", exception);
 		}
 		return coockiesMap;
 	}
@@ -90,7 +91,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected ArrayList<Map<String, ?>> getListOfItemOfObjectPath(final Response response , final String objectPath) {
+	protected final ArrayList<Map<String, ?>> getListOfItemOfObjectPath(final Response response , final String objectPath) {
 		JsonPath path = null;
 		ArrayList<Map<String, ?>> itemList = null;
 		try {
@@ -106,7 +107,7 @@ public class ActionEngine extends TestBase{
 				throw new IllegalArgumentException("Response or Object Path argument is Null");
 			}
 		} catch (ClassCastException | IllegalArgumentException exception) {
-			LOG.debug("Exception Occured | getListOfItemOfObjectPath " , exception);
+			LOG.debug("Exception Occured | getListOfItemOfObjectPath", exception);
 		}
 		return itemList;
 	}
@@ -116,7 +117,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected int getCountOfItemOfObjectPath(final Response response , final String objectPath) {
+	protected final int getCountOfItemOfObjectPath(final Response response , final String objectPath) {
 		JsonPath path = null;
 		int itemCount = 0;
 		try {
@@ -132,7 +133,7 @@ public class ActionEngine extends TestBase{
 				throw new IllegalArgumentException("Response or Object Path argument is Null");
 			}
 		} catch (ClassCastException | NullArgumentException exception) {
-			LOG.debug("Exception Occured | getCountOfItemOfObjectPath " , exception);
+			LOG.debug("Exception Occured | getCountOfItemOfObjectPath", exception);
 		}
 		return itemCount;
 	}
@@ -142,7 +143,7 @@ public class ActionEngine extends TestBase{
 	 * @param itemToBeConverted
 	 * @return
 	 */
-	protected String getStringFrom(final Object itemToBeConverted) {
+	protected final String getStringFrom(final Object itemToBeConverted) {
 		String value = null;
 		try {
 			if (itemToBeConverted != null) {
@@ -156,7 +157,7 @@ public class ActionEngine extends TestBase{
 			}
 			
 		} catch (NullArgumentException exception) {
-			LOG.debug("Exception Occured | getStringFrom " , exception);
+			LOG.debug("Exception Occured | getStringFrom", exception);
 		}
 		return value;
 	}
@@ -167,7 +168,7 @@ public class ActionEngine extends TestBase{
 	 * @param actualvalue
 	 * @return
 	 */
-	protected boolean assertValues(final String argumentIdentifier, final Object expectedValue , final Object actualvalue) {
+	protected final boolean assertValues(final String argumentIdentifier, final Object expectedValue , final Object actualvalue) {
 		boolean flag = false;
 		try {
 			if (expectedValue != null && actualvalue != null) {
@@ -181,30 +182,31 @@ public class ActionEngine extends TestBase{
 				throw new IllegalArgumentException("Expected or Actual value can't be null");
 			}
 		} catch (IllegalArgumentException exception) {
-			LOG.debug("Exception Occured | assertValues " , exception);
+			LOG.debug("Exception Occured | assertValues", exception);
 		}
 		return flag;
 	}
 	
 	/**
-	 * @param StringPort
+	 * @param portNo
 	 * @return
 	 */
 	
-	public int getIntegerFromString(String StringPort) {
+	public final int getIntegerFromString(final String portNo) {
 		int port = 0;
+		String newPort = null;
 		try {
-			if (StringPort != null) {
+			if (portNo != null) {
 				
-				if(StringPort.contains(".")) {
-					StringPort = StringPort.substring(0, StringPort.length()-2);
+				if(portNo.contains(".")) {
+					newPort = portNo.substring(0, portNo.length()-2);
 				}
-				port = Integer.valueOf(StringPort);
+				port = Integer.valueOf(newPort);
 			} else {
 				throw new IllegalArgumentException("Argument can't be null");
 			}
 		} catch (IllegalArgumentException exception) {
-			LOG.debug("Exception Occured | getIntegerFromString " , exception);
+			LOG.debug("Exception Occured | getIntegerFromString", exception);
 		}
 		return port;
 	}
@@ -214,7 +216,7 @@ public class ActionEngine extends TestBase{
 	 * @param itemPath
 	 * @return
 	 */
-	protected Object getItemFromReponse(Response response ,final String itemPath) {
+	protected final Object getItemFromReponse(final Response response ,final String itemPath) {
 		Object item = null;
 		try {
 			if (response != null && itemPath != null) {
@@ -224,7 +226,7 @@ public class ActionEngine extends TestBase{
 				throw new IllegalArgumentException("Arguments can't be null");
 			}
 		} catch (IllegalArgumentException exception) {
-			LOG.debug("Exception Occured | getItemFromReponse " , exception);
+			LOG.debug("Exception Occured | getItemFromReponse" , exception);
 		}
 		return item;
 	}
@@ -233,7 +235,7 @@ public class ActionEngine extends TestBase{
 	 * @param data
 	 * @return
 	 */
-	protected String getSeesonKey(Hashtable<String, String> data) {
+	protected final String getSeesonKey(final Hashtable<String, String> data) {
 		String sessionKey = null;
 		Response responseObj = null;
 		try {
@@ -253,7 +255,7 @@ public class ActionEngine extends TestBase{
 			ExtentTestManager.getTest().log(LogStatus.INFO, "Cookie Information" , jsonIDString + " = " + jsonIDValue);
 			sessionKey = jsonIDValue;
 		} catch (Exception exception) {
-			LOG.debug("Exception Occured | getSeesonKey " , exception);
+			LOG.debug("Exception Occured | getSeesonKey", exception);
 		}
 		return sessionKey.trim();
 	}

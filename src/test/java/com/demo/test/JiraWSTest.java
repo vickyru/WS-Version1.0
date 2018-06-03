@@ -19,6 +19,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class JiraWSTest extends ActionEngine {
 	
+	// Logger initialization for the class
 	private static final Logger LOG = Logger.getLogger(JiraWSTest.class);
 	
 	protected CreateIssuePOJO createIssuePOJO ;

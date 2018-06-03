@@ -29,6 +29,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class FirstProgram extends ActionEngine{
 	
+	// Logger initialization for the class
 	private static final Logger LOG = Logger.getLogger(FirstProgram.class);
 	
 	@Test(dataProvider="Type1WebCallDP")
