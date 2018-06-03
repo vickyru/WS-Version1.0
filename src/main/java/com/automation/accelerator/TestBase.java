@@ -29,6 +29,9 @@ public class TestBase {
 	public static ExtentTestInterruptedException testexception;
 	public TestDataReader  dataPath = new TestDataReader(System.getProperty("user.dir") + "/testdata/TestData.xlsx");
 	
+	/**
+	 * Before test class
+	 */
 	@BeforeSuite
 	public void beforeSuite() 
 	{
@@ -39,6 +42,9 @@ public class TestBase {
 		System.out.println("Before Suite ");
 	}
 	
+	/**
+	 * 
+	 */
 	@BeforeTest
 	public void beforeTest()
 	{
@@ -47,6 +53,9 @@ public class TestBase {
 	
 	//Messages on Categories Section of HTML Report
 	
+	/**
+	 * @param method
+	 */
 	@BeforeMethod 
 	public  void beforeMethod(Method method) 
 	{
@@ -71,12 +80,18 @@ public class TestBase {
 	        ExtentManager.getReporter().flush();
 	}
 	   	
+	/**
+	 * 
+	 */
 	@AfterTest
 	public void afterTest()
 	{
 		System.out.println("After Test");
 	}
 		
+	/**
+	 * 
+	 */
 	@AfterSuite
 	public void afterSuite() 
 	{

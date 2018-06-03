@@ -19,6 +19,10 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 
+/**
+ * @author prash
+ *
+ */
 public class ActionEngine extends TestBase{
 	
 	private static final Logger LOG = Logger.getLogger(ActionEngine.class);
@@ -27,7 +31,7 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected JsonPath getJsonPath(Response response) {
+	protected JsonPath getJsonPath(final Response response) {
 		JsonPath path = null;
 		try {
 			String jsonString = response.body().asString();
@@ -42,7 +46,7 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected XmlPath getXmlPath(Response response) {
+	protected XmlPath getXmlPath(final Response response) {
 		XmlPath path = null;
 		try {
 			String xmlString = response.body().asString();
@@ -57,7 +61,7 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected List<Header> getHeaderAsList(Response response) {
+	protected List<Header> getHeaderAsList(final Response response) {
 		List<Header> headerList = null;
 		try {
 			headerList = response.getHeaders().asList();
@@ -71,7 +75,7 @@ public class ActionEngine extends TestBase{
 	 * @param response
 	 * @return
 	 */
-	protected Map<String, String> getCoockiesAsMap(Response response) {
+	protected Map<String, String> getCoockiesAsMap(final Response response) {
 		Map<String, String> coockiesMap = null;
 		try {
 			coockiesMap = response.cookies();
@@ -86,7 +90,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected ArrayList<Map<String, ?>> getListOfItemOfObjectPath(Response response , String objectPath) {
+	protected ArrayList<Map<String, ?>> getListOfItemOfObjectPath(final Response response , String objectPath) {
 		JsonPath path = null;
 		ArrayList<Map<String, ?>> itemList = null;
 		try {
@@ -112,7 +116,7 @@ public class ActionEngine extends TestBase{
 	 * @param objectPath
 	 * @return
 	 */
-	protected int getCountOfItemOfObjectPath(Response response , String objectPath) {
+	protected int getCountOfItemOfObjectPath(final Response response , String objectPath) {
 		JsonPath path = null;
 		int itemCount = 0;
 		try {
@@ -138,7 +142,7 @@ public class ActionEngine extends TestBase{
 	 * @param itemToBeConverted
 	 * @return
 	 */
-	protected String getStringFrom(Object itemToBeConverted) {
+	protected String getStringFrom(final Object itemToBeConverted) {
 		String value = null;
 		try {
 			if (itemToBeConverted != null) {
@@ -157,7 +161,13 @@ public class ActionEngine extends TestBase{
 		return value;
 	}
 	
-	protected boolean assertValues(String argumentIdentifier, Object expectedValue , Object actualvalue) {
+	/**
+	 * @param argumentIdentifier
+	 * @param expectedValue
+	 * @param actualvalue
+	 * @return
+	 */
+	protected boolean assertValues(String argumentIdentifier, final Object expectedValue , final Object actualvalue) {
 		boolean flag = false;
 		try {
 			if (expectedValue != null && actualvalue != null) {
@@ -175,6 +185,11 @@ public class ActionEngine extends TestBase{
 		}
 		return flag;
 	}
+	
+	/**
+	 * @param StringPort
+	 * @return
+	 */
 	
 	public int getIntegerFromString(String StringPort) {
 		int port = 0;
@@ -194,6 +209,11 @@ public class ActionEngine extends TestBase{
 		return port;
 	}
 	
+	/**
+	 * @param response
+	 * @param itemPath
+	 * @return
+	 */
 	protected Object getItemFromReponse(Response response , String itemPath) {
 		Object item = null;
 		try {
@@ -209,6 +229,10 @@ public class ActionEngine extends TestBase{
 		return item;
 	}
 	
+	/**
+	 * @param data
+	 * @return
+	 */
 	protected String getSeesonKey(Hashtable<String, String> data) {
 		String sessionKey = null;
 		Response responseObj = null;
@@ -233,9 +257,4 @@ public class ActionEngine extends TestBase{
 		}
 		return sessionKey.trim();
 	}
-	
-	public static void main(String[] args) {
-		System.out.println(new ActionEngine().getIntegerFromString("8080.0"));
-	}
-
 }
