@@ -12,9 +12,9 @@
 			<parameter name="platformName" value="windows 7"></parameter>
 			<parameter name="environment" value="local"></parameter>
 		 <classes>
-			<class name="com.demo.test.JiraWSTest">
+			<class name="com.demo.test.FirstProgram">
 				<methods>
-					 <include name="TC_01_CreateIssueTest" />
+					 <include name="Type1WebCall" />
 				</methods>
 			 </class>
 		 </classes>

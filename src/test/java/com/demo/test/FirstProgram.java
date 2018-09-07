@@ -67,6 +67,8 @@ public class FirstProgram extends ActionEngine{
 			}
 		} catch (Exception e) {
 			LOG.debug("Excep[tion Occured | Type1WebCall " , e);
+			ExtentTestManager.getTest().log(LogStatus.ERROR, "Fail to fetch response exception occured.. " ,e);
+			
 		}
 	}
 	

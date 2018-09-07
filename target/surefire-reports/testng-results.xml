@@ -2,61 +2,61 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test Suite" duration-ms="7344" started-at="2018-05-19T10:03:46Z" finished-at="2018-05-19T10:03:54Z">
+  <suite name="Automation Test Suite" duration-ms="17914" started-at="2018-06-07T10:55:46Z" finished-at="2018-06-07T10:56:04Z">
     <groups>
     </groups>
-    <test name="chromeWindowsLocal" duration-ms="7344" started-at="2018-05-19T10:03:46Z" finished-at="2018-05-19T10:03:54Z">
-      <class name="com.demo.test.JiraWSTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="beforeSuite" is-config="true" duration-ms="934" started-at="2018-05-19T10:03:45Z" finished-at="2018-05-19T10:03:46Z">
+    <test name="chromeWindowsLocal" duration-ms="17914" started-at="2018-06-07T10:55:46Z" finished-at="2018-06-07T10:56:04Z">
+      <class name="com.demo.test.FirstProgram">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="beforeSuite" is-config="true" duration-ms="528" started-at="2018-06-07T10:55:46Z" finished-at="2018-06-07T10:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-05-19T10:03:46Z" finished-at="2018-05-19T10:03:46Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-07T10:55:46Z" finished-at="2018-06-07T10:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="beforeMethod" is-config="true" duration-ms="780" started-at="2018-05-19T10:03:47Z" finished-at="2018-05-19T10:03:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="beforeMethod" is-config="true" duration-ms="90" started-at="2018-06-07T10:55:46Z" finished-at="2018-06-07T10:55:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.demo.test.JiraWSTest.TC_01_CreateIssueTest(java.util.Hashtable)]]>
+                <![CDATA[public void com.demo.test.FirstProgram.Type1WebCall(java.util.Hashtable)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC_01_CreateIssueTest(java.util.Hashtable)[pri:28, instance:com.demo.test.JiraWSTest@4550bb58]" name="TC_01_CreateIssueTest" duration-ms="5047" started-at="2018-05-19T10:03:47Z" data-provider="JiraTest1DP" finished-at="2018-05-19T10:03:52Z">
+        <test-method status="PASS" signature="Type1WebCall(java.util.Hashtable)[pri:39, instance:com.demo.test.FirstProgram@4550bb58]" name="Type1WebCall" duration-ms="17011" started-at="2018-06-07T10:55:46Z" data-provider="Type1WebCallDP" finished-at="2018-06-07T10:56:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ResourcePathAuth=/rest/auth/1/session, Param2=JSESSIONID, Param1=Content-Type, URIPort=8080.0, CreateIssueResourcePath=/rest/api/2/issue, CreateIssueRequestBody={"fields":{"project":{"key":"RUL"},"summary":"Ninth JIRA Issue VIA Rest API","issuetype":{"name":"Bug"}}}, RequestBodyAuth={ "username": "vickyru", "password": "snowhite" }, BaseURI=http://127.0.0.1, ParamValue1=application/json}]]>
+                <![CDATA[{ResourcePath=/v1/search, ParamaValue3=, Param3=apiKey, Param2=format, Param1=query, RunMode=Y, ParamValue2=json, BaseURI=http://api.walmartlabs.com, ParamValue1=ipod}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_CreateIssueTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="afterMethod" is-config="true" duration-ms="1179" started-at="2018-05-19T10:03:52Z" finished-at="2018-05-19T10:03:54Z">
+        </test-method> <!-- Type1WebCall -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="afterMethod" is-config="true" duration-ms="586" started-at="2018-06-07T10:56:03Z" finished-at="2018-06-07T10:56:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_01_CreateIssueTest status=SUCCESS method=JiraWSTest.TC_01_CreateIssueTest(java.util.Hashtable)[pri:28, instance:com.demo.test.JiraWSTest@4550bb58] output={null}]]]>
+                <![CDATA[[TestResult name=Type1WebCall status=SUCCESS method=FirstProgram.Type1WebCall(java.util.Hashtable)[pri:39, instance:com.demo.test.FirstProgram@4550bb58] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-19T10:03:54Z" finished-at="2018-05-19T10:03:54Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-07T10:56:04Z" finished-at="2018-06-07T10:56:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.test.JiraWSTest@4550bb58]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-05-19T10:03:54Z" finished-at="2018-05-19T10:03:54Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.test.FirstProgram@4550bb58]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-06-07T10:56:04Z" finished-at="2018-06-07T10:56:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.demo.test.JiraWSTest -->
+      </class> <!-- com.demo.test.FirstProgram -->
     </test> <!-- chromeWindowsLocal -->
   </suite> <!-- Automation Test Suite -->
 </testng-results>

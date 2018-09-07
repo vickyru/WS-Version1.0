@@ -1,226 +1,211 @@
-19 May 15:33:46,045 DEBUG - read method invoked 
-19 May 15:33:46,049 INFO - fileName = C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties 
-19 May 15:33:46,049 INFO - key = automation_report_folder 
-19 May 15:33:46,050 DEBUG - Inside try 
-19 May 15:33:46,054 DEBUG - File : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Was Opened For Reading 
-19 May 15:33:46,054 DEBUG - File.separator = \ 
-19 May 15:33:46,055 DEBUG - File.separatorChar = \ 
-19 May 15:33:46,055 DEBUG - Properties Instance Was Created 
-19 May 15:33:46,058 DEBUG - properties from file : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Were Read 
-19 May 15:33:46,060 DEBUG - Inside finally 
-19 May 15:33:46,060 DEBUG - BufferedReader(bufferedReader) Instance Closed 
-19 May 15:33:46,060 DEBUG - keyValue being returned = automation-reports 
-19 May 15:33:46,061 DEBUG - Exiting read method 
-19 May 15:33:46,061 DEBUG - read method invoked 
-19 May 15:33:46,061 INFO - fileName = C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties 
-19 May 15:33:46,062 INFO - key = test_data_file_location 
-19 May 15:33:46,062 DEBUG - Inside try 
-19 May 15:33:46,062 DEBUG - File : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Was Opened For Reading 
-19 May 15:33:46,063 DEBUG - File.separator = \ 
-19 May 15:33:46,063 DEBUG - File.separatorChar = \ 
-19 May 15:33:46,064 DEBUG - Properties Instance Was Created 
-19 May 15:33:46,064 DEBUG - properties from file : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Were Read 
-19 May 15:33:46,065 DEBUG - Inside finally 
-19 May 15:33:46,066 DEBUG - BufferedReader(bufferedReader) Instance Closed 
-19 May 15:33:46,067 DEBUG - keyValue being returned = /testdata/TestData.xlsx 
-19 May 15:33:46,068 DEBUG - Exiting read method 
-19 May 15:33:46,070 DEBUG - read method invoked 
-19 May 15:33:46,071 INFO - fileName = C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties 
-19 May 15:33:46,071 INFO - key = api_key 
-19 May 15:33:46,072 DEBUG - Inside try 
-19 May 15:33:46,072 DEBUG - File : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Was Opened For Reading 
-19 May 15:33:46,073 DEBUG - File.separator = \ 
-19 May 15:33:46,074 DEBUG - File.separatorChar = \ 
-19 May 15:33:46,074 DEBUG - Properties Instance Was Created 
-19 May 15:33:46,075 DEBUG - properties from file : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Were Read 
-19 May 15:33:46,076 DEBUG - Inside finally 
-19 May 15:33:46,077 DEBUG - BufferedReader(bufferedReader) Instance Closed 
-19 May 15:33:46,078 DEBUG - keyValue being returned = xyc52sk8fnkc954nvcpspb52 
-19 May 15:33:46,078 DEBUG - Exiting read method 
-19 May 15:33:46,079 DEBUG - read method invoked 
-19 May 15:33:46,084 INFO - fileName = C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties 
-19 May 15:33:46,085 INFO - key = base-uri 
-19 May 15:33:46,086 DEBUG - Inside try 
-19 May 15:33:46,087 DEBUG - File : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Was Opened For Reading 
-19 May 15:33:46,087 DEBUG - File.separator = \ 
-19 May 15:33:46,088 DEBUG - File.separatorChar = \ 
-19 May 15:33:46,088 DEBUG - Properties Instance Was Created 
-19 May 15:33:46,089 DEBUG - properties from file : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Were Read 
-19 May 15:33:46,094 DEBUG - Inside finally 
-19 May 15:33:46,095 DEBUG - BufferedReader(bufferedReader) Instance Closed 
-19 May 15:33:46,096 DEBUG - keyValue being returned = http://localhost 
-19 May 15:33:46,096 DEBUG - Exiting read method 
-19 May 15:33:46,096 DEBUG - read method invoked 
-19 May 15:33:46,097 INFO - fileName = C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties 
-19 May 15:33:46,098 INFO - key = jira_port 
-19 May 15:33:46,099 DEBUG - Inside try 
-19 May 15:33:46,103 DEBUG - File : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Was Opened For Reading 
-19 May 15:33:46,104 DEBUG - File.separator = \ 
-19 May 15:33:46,104 DEBUG - File.separatorChar = \ 
-19 May 15:33:46,107 DEBUG - Properties Instance Was Created 
-19 May 15:33:46,108 DEBUG - properties from file : C:\Users\prash\eclipse-workspace\learning\src\main\resources\resources.properties Were Read 
-19 May 15:33:46,109 DEBUG - Inside finally 
-19 May 15:33:46,110 DEBUG - BufferedReader(bufferedReader) Instance Closed 
-19 May 15:33:46,110 DEBUG - keyValue being returned = 8080 
-19 May 15:33:46,111 DEBUG - Exiting read method 
-19 May 15:33:49,093 DEBUG - Get connection for route {}->http://127.0.0.1:8080 
-19 May 15:33:49,109 DEBUG - Connecting to 127.0.0.1:8080 
-19 May 15:33:49,132 DEBUG - CookieSpec selected: ignoreCookies 
-19 May 15:33:49,136 DEBUG - Auth cache not set in the context 
-19 May 15:33:49,136 DEBUG - Target auth state: UNCHALLENGED 
-19 May 15:33:49,138 DEBUG - Proxy auth state: UNCHALLENGED 
-19 May 15:33:49,138 DEBUG - Attempt 1 to execute request 
-19 May 15:33:49,139 DEBUG - Sending request: POST /rest/auth/1/session HTTP/1.1 
-19 May 15:33:49,140 DEBUG -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]" 
-19 May 15:33:49,143 DEBUG -  >> "Accept: */*[\r][\n]" 
-19 May 15:33:49,143 DEBUG -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]" 
-19 May 15:33:49,144 DEBUG -  >> "Content-Length: 49[\r][\n]" 
-19 May 15:33:49,144 DEBUG -  >> "Host: 127.0.0.1:8080[\r][\n]" 
-19 May 15:33:49,145 DEBUG -  >> "Connection: Keep-Alive[\r][\n]" 
-19 May 15:33:49,145 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_91)[\r][\n]" 
-19 May 15:33:49,145 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]" 
-19 May 15:33:49,146 DEBUG -  >> "[\r][\n]" 
-19 May 15:33:49,147 DEBUG - >> POST /rest/auth/1/session HTTP/1.1 
-19 May 15:33:49,147 DEBUG - >> Accept: */* 
-19 May 15:33:49,148 DEBUG - >> Content-Type: application/json; charset=UTF-8 
-19 May 15:33:49,148 DEBUG - >> Content-Length: 49 
-19 May 15:33:49,148 DEBUG - >> Host: 127.0.0.1:8080 
-19 May 15:33:49,148 DEBUG - >> Connection: Keep-Alive 
-19 May 15:33:49,149 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_91) 
-19 May 15:33:49,149 DEBUG - >> Accept-Encoding: gzip,deflate 
-19 May 15:33:49,150 DEBUG -  >> "{ "username": "vickyru", "password": "snowhite" }" 
-19 May 15:33:49,220 DEBUG -  << "HTTP/1.1 200 [\r][\n]" 
-19 May 15:33:49,223 DEBUG -  << "X-AREQUESTID: 933x123x1[\r][\n]" 
-19 May 15:33:49,224 DEBUG -  << "X-XSS-Protection: 1; mode=block[\r][\n]" 
-19 May 15:33:49,224 DEBUG -  << "X-Content-Type-Options: nosniff[\r][\n]" 
-19 May 15:33:49,224 DEBUG -  << "X-Frame-Options: SAMEORIGIN[\r][\n]" 
-19 May 15:33:49,225 DEBUG -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]" 
-19 May 15:33:49,225 DEBUG -  << "X-ASEN: SEN-L11695084[\r][\n]" 
-19 May 15:33:49,225 DEBUG -  << "Set-Cookie: atlassian.xsrf.token=BEOH-5HGG-CHJ9-2Q8X|bb88c45618d08018d05eacf1672f106ff453f36e|lout;path=/[\r][\n]" 
-19 May 15:33:49,225 DEBUG -  << "X-AUSERNAME: anonymous[\r][\n]" 
-19 May 15:33:49,225 DEBUG -  << "Set-Cookie: JSESSIONID=C6130C3FB7CB61B753835EB38B924192;path=/;HttpOnly[\r][\n]" 
-19 May 15:33:49,226 DEBUG -  << "X-Seraph-LoginReason: OK[\r][\n]" 
-19 May 15:33:49,226 DEBUG -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]" 
-19 May 15:33:49,226 DEBUG -  << "Content-Encoding: gzip[\r][\n]" 
-19 May 15:33:49,226 DEBUG -  << "Vary: User-Agent[\r][\n]" 
-19 May 15:33:49,227 DEBUG -  << "Content-Type: application/json;charset=UTF-8[\r][\n]" 
-19 May 15:33:49,227 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]" 
-19 May 15:33:49,227 DEBUG -  << "Date: Sat, 19 May 2018 10:03:49 GMT[\r][\n]" 
-19 May 15:33:49,227 DEBUG -  << "[\r][\n]" 
-19 May 15:33:49,228 DEBUG - Receiving response: HTTP/1.1 200  
-19 May 15:33:49,229 DEBUG - << HTTP/1.1 200  
-19 May 15:33:49,229 DEBUG - << X-AREQUESTID: 933x123x1 
-19 May 15:33:49,229 DEBUG - << X-XSS-Protection: 1; mode=block 
-19 May 15:33:49,229 DEBUG - << X-Content-Type-Options: nosniff 
-19 May 15:33:49,230 DEBUG - << X-Frame-Options: SAMEORIGIN 
-19 May 15:33:49,230 DEBUG - << Content-Security-Policy: frame-ancestors 'self' 
-19 May 15:33:49,230 DEBUG - << X-ASEN: SEN-L11695084 
-19 May 15:33:49,230 DEBUG - << Set-Cookie: atlassian.xsrf.token=BEOH-5HGG-CHJ9-2Q8X|bb88c45618d08018d05eacf1672f106ff453f36e|lout;path=/ 
-19 May 15:33:49,230 DEBUG - << X-AUSERNAME: anonymous 
-19 May 15:33:49,230 DEBUG - << Set-Cookie: JSESSIONID=C6130C3FB7CB61B753835EB38B924192;path=/;HttpOnly 
-19 May 15:33:49,231 DEBUG - << X-Seraph-LoginReason: OK 
-19 May 15:33:49,231 DEBUG - << Cache-Control: no-cache, no-store, no-transform 
-19 May 15:33:49,231 DEBUG - << Content-Encoding: gzip 
-19 May 15:33:49,231 DEBUG - << Vary: User-Agent 
-19 May 15:33:49,231 DEBUG - << Content-Type: application/json;charset=UTF-8 
-19 May 15:33:49,232 DEBUG - << Transfer-Encoding: chunked 
-19 May 15:33:49,232 DEBUG - << Date: Sat, 19 May 2018 10:03:49 GMT 
-19 May 15:33:49,243 DEBUG - Connection can be kept alive indefinitely 
-19 May 15:33:49,289 DEBUG - Parsing response as: application/json;charset=UTF-8 
-19 May 15:33:49,290 DEBUG -  << "98[\r][\n]" 
-19 May 15:33:49,291 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x1c][0x8d][0xc1][0xe][0xc2] [0x10][0x5][0xff]e[0xaf]R[0xc3][0xb2]B)G[0xb0]&5F[0xf][0xf4][0x7]z[0xa8][0x86][0xa4][0x82][0x11][0xe9][0xa5][0xe9][0xbf][0x9b][0xf6][0xf8]f[0x92]y[0xb][0xe4]1[0xe7][0x90]"[0x98][0x5][0xe2][0xf0][0x1e][0xc1][0xc0][0xd5][0xb7][0xde]w[0x8f]{w[0x6][0x6][0xf3]0[0x95][\r]:[0x85][0xc4][0x1d]]l[0xed][0xac]B[K[0xd2]$[K[0xda]6[0xe2][0x84][0x8d][0x80][0x95][0xc1][0x94]^!v[0xf1][0x99][0xb6][0xd8]>\*[0xf1][0x7][0x6][0xb9]b[0xf0][0xf9][0x8e]sH%[0xdf]6[0xd1][0x87][0xfd]Jp[0xd4][0x15][0x97][0x15]6=JC[0xc2][0x8]:j[0xa1][0xe]\[0x12][0x87]u[0xfd][0x3][0x0][0x0][0xff][0xff]" 
-19 May 15:33:49,291 DEBUG -  << "[\r][\n]" 
-19 May 15:33:49,291 DEBUG -  << "a[\r][\n]" 
-19 May 15:33:49,292 DEBUG -  << "[0x3][0x0]KF[0x12]|[0x9e][0x0][0x0][0x0]" 
-19 May 15:33:49,292 DEBUG -  << "[\r][\n]" 
-19 May 15:33:49,292 DEBUG -  << "0[\r][\n]" 
-19 May 15:33:49,293 DEBUG -  << "[\r][\n]" 
-19 May 15:33:49,293 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream 
-19 May 15:33:49,523 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@9b3571f 
-19 May 15:33:49,524 DEBUG - Connection can be kept alive indefinitely 
-19 May 15:33:50,327 DEBUG - Get connection for route {}->http://localhost:8080 
-19 May 15:33:50,329 DEBUG - Connecting to localhost:8080 
-19 May 15:33:50,330 DEBUG - CookieSpec selected: ignoreCookies 
-19 May 15:33:50,331 DEBUG - Auth cache not set in the context 
-19 May 15:33:50,331 DEBUG - Target auth state: UNCHALLENGED 
-19 May 15:33:50,331 DEBUG - Proxy auth state: UNCHALLENGED 
-19 May 15:33:50,332 DEBUG - Attempt 1 to execute request 
-19 May 15:33:50,332 DEBUG - Sending request: POST /rest/api/2/issue HTTP/1.1 
-19 May 15:33:50,332 DEBUG -  >> "POST /rest/api/2/issue HTTP/1.1[\r][\n]" 
-19 May 15:33:50,332 DEBUG -  >> "cookie: JSESSIONID=C6130C3FB7CB61B753835EB38B924192[\r][\n]" 
-19 May 15:33:50,333 DEBUG -  >> "Accept: */*[\r][\n]" 
-19 May 15:33:50,333 DEBUG -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]" 
-19 May 15:33:50,333 DEBUG -  >> "Content-Length: 105[\r][\n]" 
-19 May 15:33:50,333 DEBUG -  >> "Host: localhost:8080[\r][\n]" 
-19 May 15:33:50,333 DEBUG -  >> "Connection: Keep-Alive[\r][\n]" 
-19 May 15:33:50,334 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_91)[\r][\n]" 
-19 May 15:33:50,334 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]" 
-19 May 15:33:50,334 DEBUG -  >> "[\r][\n]" 
-19 May 15:33:50,335 DEBUG - >> POST /rest/api/2/issue HTTP/1.1 
-19 May 15:33:50,335 DEBUG - >> cookie: JSESSIONID=C6130C3FB7CB61B753835EB38B924192 
-19 May 15:33:50,335 DEBUG - >> Accept: */* 
-19 May 15:33:50,337 DEBUG - >> Content-Type: application/json; charset=UTF-8 
-19 May 15:33:50,337 DEBUG - >> Content-Length: 105 
-19 May 15:33:50,337 DEBUG - >> Host: localhost:8080 
-19 May 15:33:50,337 DEBUG - >> Connection: Keep-Alive 
-19 May 15:33:50,337 DEBUG - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_91) 
-19 May 15:33:50,338 DEBUG - >> Accept-Encoding: gzip,deflate 
-19 May 15:33:50,338 DEBUG -  >> "{"fields":{"project":{"key":"RUL"},"summary":"Ninth JIRA Issue VIA Rest API","issuetype":{"name":"Bug"}}}" 
-19 May 15:33:51,676 DEBUG -  << "HTTP/1.1 201 [\r][\n]" 
-19 May 15:33:51,676 DEBUG -  << "X-AREQUESTID: 933x126x2[\r][\n]" 
-19 May 15:33:51,676 DEBUG -  << "X-ASESSIONID: 1ecl9ki[\r][\n]" 
-19 May 15:33:51,676 DEBUG -  << "X-XSS-Protection: 1; mode=block[\r][\n]" 
-19 May 15:33:51,677 DEBUG -  << "X-Content-Type-Options: nosniff[\r][\n]" 
-19 May 15:33:51,677 DEBUG -  << "X-Frame-Options: SAMEORIGIN[\r][\n]" 
-19 May 15:33:51,677 DEBUG -  << "Content-Security-Policy: frame-ancestors 'self'[\r][\n]" 
-19 May 15:33:51,677 DEBUG -  << "X-ASEN: SEN-L11695084[\r][\n]" 
-19 May 15:33:51,678 DEBUG -  << "X-Seraph-LoginReason: OK[\r][\n]" 
-19 May 15:33:51,678 DEBUG -  << "Set-Cookie: atlassian.xsrf.token=BEOH-5HGG-CHJ9-2Q8X|26f54ef6806d98b03a0981cd8a5e9db90d8555ae|lin;path=/[\r][\n]" 
-19 May 15:33:51,678 DEBUG -  << "X-AUSERNAME: vickyru[\r][\n]" 
-19 May 15:33:51,678 DEBUG -  << "Cache-Control: no-cache, no-store, no-transform[\r][\n]" 
-19 May 15:33:51,678 DEBUG -  << "Content-Encoding: gzip[\r][\n]" 
-19 May 15:33:51,679 DEBUG -  << "Vary: User-Agent[\r][\n]" 
-19 May 15:33:51,679 DEBUG -  << "Content-Type: application/json;charset=UTF-8[\r][\n]" 
-19 May 15:33:51,680 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]" 
-19 May 15:33:51,680 DEBUG -  << "Date: Sat, 19 May 2018 10:03:51 GMT[\r][\n]" 
-19 May 15:33:51,680 DEBUG -  << "[\r][\n]" 
-19 May 15:33:51,681 DEBUG - Receiving response: HTTP/1.1 201  
-19 May 15:33:51,681 DEBUG - << HTTP/1.1 201  
-19 May 15:33:51,681 DEBUG - << X-AREQUESTID: 933x126x2 
-19 May 15:33:51,681 DEBUG - << X-ASESSIONID: 1ecl9ki 
-19 May 15:33:51,681 DEBUG - << X-XSS-Protection: 1; mode=block 
-19 May 15:33:51,682 DEBUG - << X-Content-Type-Options: nosniff 
-19 May 15:33:51,682 DEBUG - << X-Frame-Options: SAMEORIGIN 
-19 May 15:33:51,682 DEBUG - << Content-Security-Policy: frame-ancestors 'self' 
-19 May 15:33:51,682 DEBUG - << X-ASEN: SEN-L11695084 
-19 May 15:33:51,684 DEBUG - << X-Seraph-LoginReason: OK 
-19 May 15:33:51,685 DEBUG - << Set-Cookie: atlassian.xsrf.token=BEOH-5HGG-CHJ9-2Q8X|26f54ef6806d98b03a0981cd8a5e9db90d8555ae|lin;path=/ 
-19 May 15:33:51,685 DEBUG - << X-AUSERNAME: vickyru 
-19 May 15:33:51,685 DEBUG - << Cache-Control: no-cache, no-store, no-transform 
-19 May 15:33:51,685 DEBUG - << Content-Encoding: gzip 
-19 May 15:33:51,685 DEBUG - << Vary: User-Agent 
-19 May 15:33:51,685 DEBUG - << Content-Type: application/json;charset=UTF-8 
-19 May 15:33:51,685 DEBUG - << Transfer-Encoding: chunked 
-19 May 15:33:51,685 DEBUG - << Date: Sat, 19 May 2018 10:03:51 GMT 
-19 May 15:33:51,686 DEBUG - Connection can be kept alive indefinitely 
-19 May 15:33:51,688 DEBUG - Parsing response as: application/json;charset=UTF-8 
-19 May 15:33:51,688 DEBUG -  << "5b[\r][\n]" 
-19 May 15:33:51,689 DEBUG -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xaa]V[0xca]LQ[0xb2]R24040R[0xd2]Q[0xca]N[0xad][0x4][0xf2][0x82]B}t[0x8d]M[0x80][0xdc][0xe2][0xd4][0x9c]4 ?[0xa3][0xa4][0xa4][0xc0]J_?'?91'#[0xbf][0xb8][0xc4][0xca][0xc2][0xc0][0xc2]@[0xbf]([0xb5][0xb8]D?[0xb1] S[0xdf]H?[0xb3][0xb8][0xb8]4U[0x1f]bH-[0x0][0x0][0x0][0xff][0xff]" 
-19 May 15:33:51,689 DEBUG -  << "[\r][\n]" 
-19 May 15:33:51,689 DEBUG -  << "a[\r][\n]" 
-19 May 15:33:51,689 DEBUG -  << "[0x3][0x0][0xe8][0x99][0xca][0xa8]S[0x0][0x0][0x0]" 
-19 May 15:33:51,689 DEBUG -  << "[\r][\n]" 
-19 May 15:33:51,690 DEBUG -  << "0[\r][\n]" 
-19 May 15:33:51,690 DEBUG -  << "[\r][\n]" 
-19 May 15:33:51,690 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream 
-19 May 15:33:51,699 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6b630a9c 
-19 May 15:33:51,699 DEBUG - Connection can be kept alive indefinitely 
-19 May 15:33:52,854 DEBUG - Request : io.restassured.internal.RequestSpecificationImpl@1817009f 
-19 May 15:33:52,881 DEBUG - Response : {"id":"10102","key":"RUL-34","self":"http://localhost:8080/rest/api/2/issue/10102"} 
-19 May 15:33:53,044 DEBUG - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it. 
-19 May 15:33:53,046 DEBUG - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found 
-19 May 15:33:53,051 DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found 
-19 May 15:33:53,052 DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found 
-19 May 15:33:53,053 DEBUG - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/prash/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl" 
-19 May 15:33:53,624 DEBUG - Connection 0.0.0.0:50715<->127.0.0.1:8080 closed 
-19 May 15:33:53,626 DEBUG - Connection 0.0.0.0:50714<->127.0.0.1:8080 closed 
+07 Jun 16:25:46,168 DEBUG - read method invoked 
+07 Jun 16:25:46,172 INFO - fileName = E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties 
+07 Jun 16:25:46,172 INFO - key = automation_report_folder 
+07 Jun 16:25:46,172 DEBUG - Inside try 
+07 Jun 16:25:46,173 DEBUG - File : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Was Opened For Reading 
+07 Jun 16:25:46,173 DEBUG - File.separator = \ 
+07 Jun 16:25:46,174 DEBUG - File.separatorChar = \ 
+07 Jun 16:25:46,174 DEBUG - Properties Instance Was Created 
+07 Jun 16:25:46,175 DEBUG - properties from file : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Were Read 
+07 Jun 16:25:46,175 DEBUG - Inside finally 
+07 Jun 16:25:46,175 DEBUG - BufferedReader(bufferedReader) Instance Closed 
+07 Jun 16:25:46,176 DEBUG - keyValue being returned = automation-reports 
+07 Jun 16:25:46,176 DEBUG - Exiting read method 
+07 Jun 16:25:46,176 DEBUG - read method invoked 
+07 Jun 16:25:46,176 INFO - fileName = E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties 
+07 Jun 16:25:46,177 INFO - key = test_data_file_location 
+07 Jun 16:25:46,177 DEBUG - Inside try 
+07 Jun 16:25:46,177 DEBUG - File : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Was Opened For Reading 
+07 Jun 16:25:46,178 DEBUG - File.separator = \ 
+07 Jun 16:25:46,178 DEBUG - File.separatorChar = \ 
+07 Jun 16:25:46,178 DEBUG - Properties Instance Was Created 
+07 Jun 16:25:46,179 DEBUG - properties from file : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Were Read 
+07 Jun 16:25:46,180 DEBUG - Inside finally 
+07 Jun 16:25:46,180 DEBUG - BufferedReader(bufferedReader) Instance Closed 
+07 Jun 16:25:46,180 DEBUG - keyValue being returned = /testdata/TestData.xlsx 
+07 Jun 16:25:46,181 DEBUG - Exiting read method 
+07 Jun 16:25:46,181 DEBUG - read method invoked 
+07 Jun 16:25:46,181 INFO - fileName = E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties 
+07 Jun 16:25:46,182 INFO - key = api_key 
+07 Jun 16:25:46,183 DEBUG - Inside try 
+07 Jun 16:25:46,183 DEBUG - File : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Was Opened For Reading 
+07 Jun 16:25:46,184 DEBUG - File.separator = \ 
+07 Jun 16:25:46,184 DEBUG - File.separatorChar = \ 
+07 Jun 16:25:46,184 DEBUG - Properties Instance Was Created 
+07 Jun 16:25:46,186 DEBUG - properties from file : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Were Read 
+07 Jun 16:25:46,187 DEBUG - Inside finally 
+07 Jun 16:25:46,189 DEBUG - BufferedReader(bufferedReader) Instance Closed 
+07 Jun 16:25:46,190 DEBUG - keyValue being returned = xyc52sk8fnkc954nvcpspb52 
+07 Jun 16:25:46,190 DEBUG - Exiting read method 
+07 Jun 16:25:46,191 DEBUG - read method invoked 
+07 Jun 16:25:46,191 INFO - fileName = E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties 
+07 Jun 16:25:46,191 INFO - key = base-uri 
+07 Jun 16:25:46,192 DEBUG - Inside try 
+07 Jun 16:25:46,192 DEBUG - File : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Was Opened For Reading 
+07 Jun 16:25:46,200 DEBUG - File.separator = \ 
+07 Jun 16:25:46,200 DEBUG - File.separatorChar = \ 
+07 Jun 16:25:46,201 DEBUG - Properties Instance Was Created 
+07 Jun 16:25:46,208 DEBUG - properties from file : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Were Read 
+07 Jun 16:25:46,211 DEBUG - Inside finally 
+07 Jun 16:25:46,211 DEBUG - BufferedReader(bufferedReader) Instance Closed 
+07 Jun 16:25:46,212 DEBUG - keyValue being returned = http://localhost 
+07 Jun 16:25:46,212 DEBUG - Exiting read method 
+07 Jun 16:25:46,214 DEBUG - read method invoked 
+07 Jun 16:25:46,214 INFO - fileName = E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties 
+07 Jun 16:25:46,215 INFO - key = jira_port 
+07 Jun 16:25:46,215 DEBUG - Inside try 
+07 Jun 16:25:46,215 DEBUG - File : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Was Opened For Reading 
+07 Jun 16:25:46,217 DEBUG - File.separator = \ 
+07 Jun 16:25:46,218 DEBUG - File.separatorChar = \ 
+07 Jun 16:25:46,220 DEBUG - Properties Instance Was Created 
+07 Jun 16:25:46,222 DEBUG - properties from file : E:\Test_Project\WS-Version1.0\src\main\resources\resources.properties Were Read 
+07 Jun 16:25:46,223 DEBUG - Inside finally 
+07 Jun 16:25:46,224 DEBUG - BufferedReader(bufferedReader) Instance Closed 
+07 Jun 16:25:46,224 DEBUG - keyValue being returned = 8080 
+07 Jun 16:25:46,224 DEBUG - Exiting read method 
+07 Jun 16:25:48,284 DEBUG - Get connection for route {}->http://api.walmartlabs.com:8080 
+07 Jun 16:25:48,520 DEBUG - Connecting to api.walmartlabs.com:8080 
+07 Jun 16:26:02,106 DEBUG - Connect to api.walmartlabs.com:8080 timed out. Connection will be retried using another IP address 
+07 Jun 16:26:02,107 DEBUG - Connecting to api.walmartlabs.com:8080 
+07 Jun 16:26:03,900 DEBUG - Connection org.apache.http.impl.conn.DefaultClientConnection@5c82a26a closed 
+07 Jun 16:26:03,902 DEBUG - Connection org.apache.http.impl.conn.DefaultClientConnection@5c82a26a shut down 
+07 Jun 16:26:03,912 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@a6e88b9 
+07 Jun 16:26:03,916 DEBUG - Excep[tion Occured | Type1WebCall  
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2129)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+	at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1290)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:149)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:124)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1732)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1738)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:170)
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+	at com.demo.test.FirstProgram.Type1WebCall(FirstProgram.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+07 Jun 16:26:03,988 DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it. 
+07 Jun 16:26:03,989 DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found 
+07 Jun 16:26:03,991 DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found 
+07 Jun 16:26:03,994 DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found 
+07 Jun 16:26:03,994 DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prashantt/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl" 

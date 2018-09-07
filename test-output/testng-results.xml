@@ -1,64 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Automation Test Suite]" duration-ms="3076" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:29Z">
+  <suite name="Automation Test Suite" duration-ms="289573" started-at="2018-06-07T10:29:36Z" finished-at="2018-06-07T10:34:25Z">
     <groups>
     </groups>
-    <test name="chromeWindowsLocal(failed)" duration-ms="3076" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:29Z">
-      <class name="com.demo.test.JiraWSTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeSuite" is-config="true" duration-ms="584" started-at="2018-05-18T21:03:25Z" finished-at="2018-05-18T21:03:26Z">
+    <test name="chromeWindowsLocal" duration-ms="289573" started-at="2018-06-07T10:29:36Z" finished-at="2018-06-07T10:34:25Z">
+      <class name="com.demo.test.FirstProgram">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="beforeSuite" is-config="true" duration-ms="587" started-at="2018-06-07T10:29:35Z" finished-at="2018-06-07T10:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:26Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-06-07T10:29:36Z" finished-at="2018-06-07T10:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="beforeMethod" is-config="true" duration-ms="135" started-at="2018-05-18T21:03:26Z" finished-at="2018-05-18T21:03:26Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="beforeMethod" is-config="true" duration-ms="98" started-at="2018-06-07T10:29:36Z" finished-at="2018-06-07T10:29:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.demo.test.JiraWSTest.TC_02_AssignIssueTest(java.util.Hashtable)]]>
+                <![CDATA[public void com.demo.test.FirstProgram.Type1WebCall(java.util.Hashtable)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC_02_AssignIssueTest(java.util.Hashtable)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="TC_02_AssignIssueTest" duration-ms="2215" started-at="2018-05-18T21:03:26Z" data-provider="TC_02_AssignIssueTestDP" finished-at="2018-05-18T21:03:28Z">
+        <test-method status="PASS" signature="Type1WebCall(java.util.Hashtable)[pri:39, instance:com.demo.test.FirstProgram@1c32386d]" name="Type1WebCall" duration-ms="5455" started-at="2018-06-07T10:29:36Z" data-provider="Type1WebCallDP" finished-at="2018-06-07T10:29:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{ParamValue1=application/json, RequestBodyAssign={
-    "name": "vickyru"
-}, ResourcePathAuth=/rest/auth/1/session, RequestBodyAuth={ "username": "vickyru", "password": "snowhite" }, URIPort=8080.0, Param2=JSESSIONID, Param1=Content-Type, BaseURI=http://127.0.0.1}]]>
+                <![CDATA[{ResourcePath=/v1/search, ParamaValue3=, Param3=apiKey, Param2=format, Param1=query, RunMode=Y, ParamValue2=json, BaseURI=http://api.walmartlabs.com, ParamValue1=ipod}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_AssignIssueTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterMethod" is-config="true" duration-ms="452" started-at="2018-05-18T21:03:28Z" finished-at="2018-05-18T21:03:29Z">
+        </test-method> <!-- Type1WebCall -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="afterMethod" is-config="true" duration-ms="283729" started-at="2018-06-07T10:29:42Z" finished-at="2018-06-07T10:34:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_02_AssignIssueTest status=SUCCESS method=JiraWSTest.TC_02_AssignIssueTest(java.util.Hashtable)[pri:0, instance:com.demo.test.JiraWSTest@72967906] output={null}]]]>
+                <![CDATA[[TestResult name=Type1WebCall status=SUCCESS method=FirstProgram.Type1WebCall(java.util.Hashtable)[pri:39, instance:com.demo.test.FirstProgram@1c32386d] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.regex.Matcher.getTextLength(Unknown Source)
+at java.util.regex.Matcher.reset(Unknown Source)
+at java.util.regex.Matcher.<init>(Unknown Source)
+at java.util.regex.Pattern.matcher(Unknown Source)
+at com.relevantcodes.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:25)
+at com.relevantcodes.extentreports.utils.ExceptionUtil.createExceptionInfo(ExceptionUtil.java:34)
+at com.relevantcodes.extentreports.ExtentTest.log(ExtentTest.java:131)
+at com.automation.accelerator.TestBase.afterMethod(TestBase.java:93)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-18T21:03:29Z" finished-at="2018-05-18T21:03:29Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-07T10:34:25Z" finished-at="2018-06-07T10:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.test.JiraWSTest@72967906]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-05-18T21:03:29Z" finished-at="2018-05-18T21:03:29Z">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.demo.test.FirstProgram@1c32386d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-06-07T10:34:25Z" finished-at="2018-06-07T10:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.demo.test.JiraWSTest -->
-    </test> <!-- chromeWindowsLocal(failed) -->
-  </suite> <!-- Failed suite [Automation Test Suite] -->
+      </class> <!-- com.demo.test.FirstProgram -->
+    </test> <!-- chromeWindowsLocal -->
+  </suite> <!-- Automation Test Suite -->
 </testng-results>
