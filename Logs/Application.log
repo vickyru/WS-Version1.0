@@ -209,3 +209,15 @@ java.net.ConnectException: Connection refused: connect
 07 Jun 16:26:03,991 DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found 
 07 Jun 16:26:03,994 DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found 
 07 Jun 16:26:03,994 DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prashantt/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl" 
+7 Jun 16:26:03,988 DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it. 
+07 Jun 16:26:03,989 DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found 
+07 Jun 16:26:03,991 DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found 
+07 Jun 16:26:03,994 DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found 
+07 Jun 16:26:03,994 DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prashantt/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl" 
+
+7 Jun 16:26:03,988 DEBUG - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it. 
+07 Jun 16:26:03,989 DEBUG - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found 
+07 Jun 16:26:03,991 DEBUG - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found 
+07 Jun 16:26:03,994 DEBUG - TemplateLoader.findTemplateSource("Extent.ftl"): Found 
+07 Jun 16:26:03,994 DEBUG - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/prashantt/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl" 
+
